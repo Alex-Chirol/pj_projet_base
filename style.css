@@ -54,6 +54,7 @@ body{
 }
 .colonne_menu{
     background-color: gold;
+    text-decoration: none;
 }
 .colonne_contenu {
     background-color: green;
@@ -97,6 +98,24 @@ a:hover {
     color: orange;
     text-decoration: none;
 }
-
-
-
+.colonnes, .colonne_menu {
+    background-color: lightsalmon;
+}
+.colonne_menu ul {
+    margin: 0;
+    padding: 0;
+}
+.colonne_menu li {
+    list-style: none;
+    background-color: beige;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.colonne_menu li:hover {
+    background-color: aquamarine;
+}
+.colonne_menu a {
+    text-decoration: none;
+    color: green;
+}
