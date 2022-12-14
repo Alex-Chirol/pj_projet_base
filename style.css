@@ -56,14 +56,47 @@ body{
     background-color: gold;
 }
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: green;
+    margin: 10px
 }
 .pieddepage{
     background-color: gray;
     color: blue;
     text-align: center;
+    line-height: 50px;
 }
-
+h1 {
+    background-color: red;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid purple;
+}
+h2 {
+    color: blue;
+    font-size: 1.5em;
+    margin: 20px;
+    font-variant: small-caps ;
+}
+strong {
+    color: blue;
+    font-weight: lighter;
+}
+em {
+    color: red;
+}
+.introduction {
+    font-style: italic;
+    border: 5px solid purple;
+    margin: 10px;
+    border-radius: 20px;
+}
+a {
+    font-weight: bolder;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
 
 
 
