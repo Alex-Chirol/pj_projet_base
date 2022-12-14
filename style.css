@@ -37,7 +37,17 @@ body{
 	 
 }
 .entete{
-    background-color: hotpink;
+    background-color: pink;
+    margin: 10px;
+}
+.entete__titre {
+    font-size: 1.5em;
+    color: blueviolet;
+}
+.entete__slogan {
+    font-size: 1.5em;
+    color: yellow;
+    font-style: italic;
 }
 .colonnes {
     background-color: deepskyblue;
